@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  background-color: rgb(247, 244, 214);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+header .leftbar {
+  display: flex;
+  /* background-color: aqua; */
+  list-style: none;
+}
+header ul li {
+  /* background-color: brown; */
+  margin: 20px;
+  color: rgb(95, 93, 74);
+}
+header .rightbar {
+  /* background-color: blue; */
+  display: flex;
+  list-style: none;
+}
+.larana {
+  font-size: xx-large;
+  color: rgb(78, 75, 42);
+}
+.box {
+  /* background-color:blue ; */
+  background-image: url("./Resorces/Jewwllery.jpg");
+  background-color: rgba(0, 0, 0, 0.459);
+  background-blend-mode: multiply;
+  background-position: bottom;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box div {
+  /* background-color: aqua; */
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+}
+.box div button {
+  padding: 6px 40px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(121, 88, 88);
+}
+h2 {
+  font-weight: bold;
+  color: rgba(32, 28, 28, 0.959);
+  text-align: center;
+  margin: 20px;
+  letter-spacing: 2px;
+}
+.big {
+  background-color: antiquewhite;
+  /* height: 87vh; */
+  display: flex;
+  justify-content: space-around;
+}
+.big .card .jweImg {
+  background-color: brown;
+  height: 350px;
+  width: 420px;
+  margin: 30px 0;
+  background-size: cover;
+  background-position: center;
+}
+.big .card {
+  text-align: center;
+}
+.big .card button {
+  padding: 6px 40px;
+  border-radius: 15px;
+  font-size: 17px;
+  background-color: rgb(151, 131, 41);
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.big .card .earimg {
+  background-image: url(./Resorces/Earing.jpg);
+}
+.big .card .breimg {
+  background-image: url(./Resorces/Bracelate.jpg);
+}
+.big .card .neckimg {
+  background-image: url(./Resorces/Neckles.jpg);
+}
+.p1 {
+  text-align: center;
+  margin: 20px 0 40px 0;
+  font-size: larger;
+  color: brown;
+}
+.kind {
+  height: 100vh;
+  background-image: url("./Resorces/Gold.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kind .word {
+  background-color: white;
+  width: 60%;
+  padding: 50px;
+  border: solid black 1px;
+  text-align: center;
+}
+.kind .word .stars {
+  font-size: larger;
+  letter-spacing: 5px;
+  text-shadow: 0px 0px 10px rgb(248, 179, 5);
+}
+.kind .word .p2 {
+  font-size: large;
+  margin-top: 20px;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+ .button .first{
+  font-size: 23px;
+  font-weight:200;
+  color: rgb(97, 89, 14);
+ }
+
+.button hr {
+  height: 60px;
+  background-color: aqua;
+  border: solid black 1px;
+}
+.button ul li{
+  list-style: none;
+  color: rgb(122, 96, 63);
+  text-align: center;
+  margin: 10px 0px ;
+}
+.button .forth{
+  font-size: 20px;
+  color: rgb(97, 89, 14);
+}
+
+/* ..................... */
+
+
+.fullPage{
+  height: 90vh;
+  /* background-color: rgba(255, 228, 196, 0.432); */
+  /* padding: 80px */
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.fullPage::before{
+  margin-top: -70px;
+  content: "";
+  height: 100%;
+  width: 42%;
+  /* background-color: violet; */
+  background-color: rgb(240, 240, 240);
+  position: absolute;
+  z-index: -2;
+  overflow: hidden;
+  left: 0;
+}
+.fullPage .leftImgs{
+  /* background-color: aqua; */
+  width: 40%;
+}
+
+.fullPage .leftImgs .jwe1{
+  /* background-color: blueviolet; */
+  background-image: url(./Resorces/Earing.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.fullPage .leftImgs .jwe2{
+  /* background-color: blue; */
+  background-image: url(./Resorces/Bracelate.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  margin-left: 72px;
+}
+
+.fullPage .leftImgs .jwe3{
+  position:relative;
+  /* background-color: brown; */
+  background-image: url(./Resorces/Neckles.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 350px;
+  left: 340px;
+  bottom: 495px;
+}
+
+.fullPage .rightText{
+  /* background-color: aquamarine; */
+  width: 40%;
+  position: relative;
+  left: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.fullPage .rightText .heading{
+  /* background-color: aliceblue; */
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.fullPage .rightText .para{
+  text-align: center;
+  font-size: 18px;
+}
+
+.fullPage .rightText button{
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+  color: brown;
+  padding: 6px 40px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 50px 0px;
+}
+.button{
+  background-color: rgba(255, 228, 196, 0.432)
+ 
+}
